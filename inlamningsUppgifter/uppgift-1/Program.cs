@@ -10,7 +10,10 @@ namespace uppgift_1
     {
         static void Main(string[] args)
         {
-            Console.Write("hej");
+            Random rnd = new Random();
+            int slumpatTal = rnd.Next(1,100);
+            
+            Console.WriteLine("Skriv ett slumpat tal");
 
         }
     }
